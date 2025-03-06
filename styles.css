@@ -1,21 +1,17 @@
 /* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+*
 
 body {
-  display: flex;
-  flex-direction: column;
+  /*
+  display: flex;*/
   min-height: 100vh;
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #F9E6CF;
 }
 
 header {
-  background: #333;
+  background: #69247C ;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -29,7 +25,7 @@ nav {
 main {
   display: flex;
   flex: 1;
-  background: white;
+  background: #FAC67A;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -65,14 +61,14 @@ aside {
 }
 
 footer {
-  background: #333;
+  background: #;DA498D
   color: white;
   text-align: center;
   padding: 1rem;
   margin-top: auto;
 }
 
-/* Indicadores de etiquetas semánticas */
+/* Indicadores de etiquetas semánticas *
 nav {
   border: 3px solid green;
 }
@@ -84,3 +80,4 @@ main {
 aside {
   border: 3px solid orange;
 }
+  */
